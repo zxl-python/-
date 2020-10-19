@@ -1,0 +1,12 @@
+# Define here the models for your scraped items
+#
+# See documentation in:
+# https://docs.scrapy.org/en/latest/topics/items.html
+
+import scrapy
+
+
+class LearnItem(scrapy.Item):
+    # define the fields for your item here like:
+    com_names = scrapy.Field()  #字段:公司
+    job_names = scrapy.Field()  # 字段:工作
